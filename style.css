@@ -1,0 +1,234 @@
+/* Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logout-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background: #dc2626;
+  }
+  
+  /* Input Sections */
+  input, select, button {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+  }
+  
+  button {
+    background: #3b82f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #2563eb;
+  }
+  
+  .transaction-input h3,
+  .transaction-list-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Transaction List */
+  .transaction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-list li {
+    background-color: #f9fafb;
+    padding: 10px;
+    border-left: 5px solid;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .list-group-item {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-color: #343a40;
+  }
+  /* General Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .d-flex {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  /* Card */
+  .card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Add Transaction Section */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-select {
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Transaction List */
+  .list-group {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Summary Section */
+  .card.shadow-sm {
+    background-color: #e9ecef;
+  }
+  
+  .card-body p,
+  .card-body h5 {
+    font-size: 1.1rem;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .d-flex {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  
+    .btn-lg {
+      width: 100%;
+    }
+  }
+  
+  
